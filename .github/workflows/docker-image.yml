@@ -12,9 +12,9 @@ jobs:
     strategy:
       matrix:
         version:
-          - major: 8
-            arch: 'amd64, arm64'
           - major: 9
+            arch: 'amd64, arm64'
+          - major: 10
             arch: 'amd64, arm64'
         registry:
           - domain: quay.io
